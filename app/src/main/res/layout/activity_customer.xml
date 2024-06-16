@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CustomerActivity">
+
+    <TextView
+
+        android:fontFamily="@font/fruit"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:text="Welcome to Second Cup Coffee"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:fontFamily="@font/fruit"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:text="What would you like to do"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="250dp"
+
+        android:id="@+id/btn_show_order"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fruit"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="22sp"
+        android:background="@drawable/custom_edittext"
+        android:text="Show Your Order"
+        android:textColor="@color/background" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/custom_edittext"
+        android:fontFamily="@font/fruit"
+
+        android:id="@+id/btn_order_menu"
+        android:text="Order your Menu"
+        android:textSize="22sp"
+        android:textColor="@color/background"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

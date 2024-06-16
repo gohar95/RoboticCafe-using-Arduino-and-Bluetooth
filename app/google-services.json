@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "991462246814",
+    "project_id": "fyprobot-ed6a6",
+    "storage_bucket": "fyprobot-ed6a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991462246814:android:d6ecf7408445e10c542e8f",
+        "android_client_info": {
+          "package_name": "com.fyp.robot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzSiPABdVV07L5GvEqygy7qqzHvSaXt0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

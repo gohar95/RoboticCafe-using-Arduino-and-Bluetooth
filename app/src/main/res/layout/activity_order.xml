@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".OrderActivity">
+
+
+
+    <TextView
+
+        android:gravity="center"
+        android:fontFamily="@font/fruit"
+        android:textColor="@color/white"
+        android:text="Confirm Your Order"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/fruit"
+            android:text="You have Selected"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txt_product_name"
+            android:text="Coffee"
+            android:fontFamily="@font/fruit"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/fruit"
+            android:text="Your Price is"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txt_product_price"
+            android:text="250"
+            android:fontFamily="@font/fruit"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:background="@drawable/custom_edittext"
+        android:textColorHint="@color/background"
+        android:textColor="@color/background"
+        android:paddingLeft="15dp"
+        android:id="@+id/edt_name"
+        android:hint="Please Enter Your Name"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <EditText
+
+        android:background="@drawable/custom_edittext"
+        android:textColorHint="@color/background"
+        android:textColor="@color/background"
+        android:paddingLeft="15dp"
+        android:id="@+id/edt_quantity"
+        android:hint="Please Enter Your Quantity"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <EditText
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="15dp"
+        android:id="@+id/edt_table_number"
+        android:textColorHint="@color/background"
+        android:textColor="@color/background"
+        android:hint="Please Enter Your Table Number"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:id="@+id/btn_confirm_order"
+        android:background="@drawable/custom_edittext"
+        android:textColor="@color/background"
+        android:fontFamily="@font/fruit"
+        android:textSize="20sp"
+        android:text="Confirm Order"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:id="@+id/btn_cash_order"
+        android:background="@drawable/custom_edittext"
+        android:textColor="@color/background"
+        android:fontFamily="@font/fruit"
+        android:textSize="20sp"
+        android:text="Pay Cash"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:id="@+id/btn_online"
+        android:background="@drawable/custom_edittext"
+        android:textColor="@color/background"
+        android:fontFamily="@font/fruit"
+        android:textSize="20sp"
+        android:text="Pay Jazzcash"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
